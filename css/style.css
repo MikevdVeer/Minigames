@@ -222,7 +222,7 @@ i {
     .btn {
         width: 80%; 
     }
-
+    
 }
 
 @media only screen and (max-width: 480px) {
@@ -233,7 +233,10 @@ i {
     .nav ul li {
         padding: 3px;
     }
-
+    .display-game-grid {
+        width: 50%;
+        margin: auto;
+    }
    
 }
 

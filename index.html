@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Minigame.com</title>
+</head>
+
+<body>
+ 
+    <div class="header">
+        <a href="./index.html"><img src="./Images/logo.png" alt="logo"></a>
+        <h1>Welkom 9-11-2023</h1>
+        <!--audio playlist -->
+        <audio src="" controls id="audioPlayer" preload="auto"></audio>
+    </div>
+
+    <div class="container">
+        <div class="nav">
+            <div class="content">
+                <nav>
+                    <ul>
+                        <p class="difficulty">Basic</p>
+                        <li><a href="./boter-kaas-eieren.html"> kaas en eieren</a></li>
+                        <li>Whack a mole</li>
+                        <li>Zeeslag</li>
+                        <p class="difficulty">Advanced</p>
+                        <li>New Games Coming</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="credits"><br>
+                <h3>Made by</h3>
+                <li>Mike vd Veer</li><br>
+                <li>Sibren Boode</li><br>
+                <li>Dao Nguyen</li>
+            </div><br>
+            <div class="pl">
+                <h3>Playlist</h3>
+                <ul id="playlist">
+                    <!-- add more numbers -->
+                    <li class="current-song"><a href="./audio/LittleBigPlanet OST - My Patch.mp3">Ost - My Patch</a></li>
+                    <li><a href="./audio/LittleBigPlanet OST - Left Bank Two.mp3">Ost - Left Bank Two</a></li>
+                    <li><a href="./audio/Katy Perry - Firework (Official Music Video).mp3">Katty Perry - Firework</a>
+                    <li><a href="./audio/Coldplay - Viva La Vida (Official Video).mp3">Coldplay - Viva la Vida</a></li>
+                    <li><a href="./audio/Alan-walker-the-spectre.mp3">Alan Walker - The Spectre</a></li>
+                    <li><a href="./audio/Cadmium - Click & Scroll.mp3">Cadmium - Click & Scroll</a></li>
+                </ul>
+                    
+            </div>
+            <div id="albumArtContainer">
+                <img id="albumArt" src="" alt="Album Art">
+            </div>
+        </div>
+        <div class="display-game">
+            <div class="display-game-grid">
+                <!-- Pas dit aan naar 3 articlen met video trailers -->
+                <div class="center">
+                    <div class="discription">
+                        <video width="100%" height="audio" controls>
+                        <source src="./move.mp4"  type="video/mp4">
+                      </video>
+                        <article>Boter kaas en Eieren</article><br>
+                        <button class="btn" onclick="newGame()">Click Here</button>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="discription">
+                        <video width="100%" poster="./img" controls>
+                            <source src="movie.mp4" type="video/mp4">
+                          </video>
+                        <article>Whack a mole</article><br>
+                        <button class="btn">Click Here</button>
+                    </div>
+                </div>
+                <div class="center">
+                    <div class="discription">
+                        <video width="100%" poster="./img" controls>
+                            <source src="movie.mp4" type="video/mp4">
+                          </video>
+                        <article>warships</article><br>
+                        <button class="btn">Click Here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- discord links | Icon toevoegen met font-awsome | school account linken | Style Rainbow border animatie (opcional) -->
+    <footer><h3>socials:</h3> <i onclick="discord()" class="fa-brands fa-discord fa-bounce" style="color: rgb(114,137,218)"></i> <i onclick="github()" class="fa-brands fa-github fa-bounce" style="color: white"></i><i class="fa-brands fa-whatsapp fa-bounce" style="color: #2abb3b;"></i></div></footer>
+    <script src="https://kit.fontawesome.com/cfd25bf418.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -190,12 +190,53 @@ i {
 }
 
 /* Responsive Styles */
-@media only screen and (max-width: 768px) and (orientation: landscape) {
+@media only screen and (max-width: 768px) {
     .container {
+        grid-template-columns: 100%;
+        height: auto;
+    }
+
+    .nav {
+        width: 100%;
+        height: auto;
+    }
+
+    .display-game {
+        width: 100%;
+        height: auto;
+    }
+
+    .display-game-grid {
         grid-template-columns: 100%;
     }
 
-    .nav, .display-game {
-        width: 100%;
+    .center {
+        width: 80%; 
     }
+
+    .discription {
+        width: 80%; 
+        margin: auto;
+    }
+
+    .btn {
+        width: 80%; 
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .header h1 {
+        padding: 10px;
+    }
+
+    .nav ul li {
+        padding: 3px;
+    }
+
+   
+}
+
+@media only screen and (min-width: 1200px) {
+    
 }

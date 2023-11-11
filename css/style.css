@@ -32,14 +32,6 @@
     overflow: hidden;
 }
 
-a {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
 .nav {
     background-color: rgba(12, 160, 209, 0.648);
     border: 3px solid black;
@@ -103,16 +95,20 @@ a:visited {
 
 .btn {
     width: 50%;
-    height: 10vh;
+    height: 5vh;
     font-size: medium;
-    background-color: red;
-    border-radius: 50%;
+    background-color: #0a0a23;
+    margin-bottom: 10px;
+    border-radius: 15%;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: orange;
-    color: blue;
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 5px #5a01a7;
+    transition: 0.7s;
+    color: white;
 }
 
 /* audio playlist */
@@ -156,6 +152,7 @@ audio {
     top: 10px;
     width: 50%;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 #albumArtContainer img {
@@ -207,7 +204,28 @@ i {
     }
 
     .display-game-grid {
+        display: flex;
         grid-template-columns: 100%;
+
+    }
+
+    .btn {
+        width: 50%;
+        height: 5vh;
+        font-size: medium;
+        background-color: #0a0a23;
+        color: white;
+        margin-bottom: 10px;
+        border-radius: 15%;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        outline-color: transparent;
+        outline-style:solid;
+        box-shadow: 0 0 0 5px #5a01a7;
+        transition: 0.7s;
+        
     }
 
     .center {
@@ -222,7 +240,7 @@ i {
     .btn {
         width: 80%; 
     }
-    
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -233,10 +251,7 @@ i {
     .nav ul li {
         padding: 3px;
     }
-    .display-game-grid {
-        width: 50%;
-        margin: auto;
-    }
+
    
 }
 

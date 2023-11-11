@@ -7,6 +7,7 @@ function newGame() {
 function audioPlayer() {
     let currentSong = 0;
 
+    // add sportify link naar de juiste song
     const imageArray = [
         "Images/my patch.jpeg",
         "Images/left bank two.jpeg",

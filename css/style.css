@@ -58,6 +58,7 @@
     padding: 15px;
 }
 
+
 .content {
     border-bottom: 3px solid black;
     border-radius: 10%;
@@ -91,6 +92,10 @@
     text-align: center;
     margin: auto;
     height: auto;
+}
+
+.pl h3 {
+    margin-left: 20px;
 }
 
 .btn {

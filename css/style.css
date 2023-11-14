@@ -158,6 +158,7 @@ audio {
     width: 50%;
     margin: auto;
     margin-bottom: 20px;
+    border-bottom: 3px solid black;
 }
 
 #albumArtContainer img {

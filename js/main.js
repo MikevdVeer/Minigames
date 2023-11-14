@@ -3,6 +3,9 @@ function newGame() {
     window.open("boter-kaas-eieren.html", "_self");
   }
 
+
+//  thema change 
+
 // audio playlist
 function audioPlayer() {
     let currentSong = 0;

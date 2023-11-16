@@ -94,6 +94,11 @@
     height: auto;
 }
 
+.discription img {
+    width: 250px;
+    border-radius: 20px;
+}
+
 .pl h3 {
     margin-left: 20px;
 }

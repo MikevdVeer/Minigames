@@ -1,10 +1,7 @@
 // link to game 1
 function newGame() {
     window.open("boter-kaas-eieren.html", "_self");
-  }
-
-
-//  thema change 
+  } 
 
 // audio playlist
 function audioPlayer() {

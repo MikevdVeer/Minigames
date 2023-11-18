@@ -15,6 +15,7 @@ function audioPlayer() {
         "Images/viva la vida.jpeg",
         "Images/The Spectre.jpeg",
         "Images/Cadmium.jpg",
+        "Images/Minecraft.jpeg",
     ];
 
     $("#albumArt").attr("src", imageArray[currentSong]);

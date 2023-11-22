@@ -1,6 +1,6 @@
 // link to game 1
 function newGame() {
-    window.open("boter-kaas-eieren.html", "_self");
+    window.open("player-tic-tac-toe.html", "_self");
   } 
 
 // audio playlist

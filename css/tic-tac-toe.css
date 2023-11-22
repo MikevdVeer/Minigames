@@ -6,13 +6,15 @@
 }
 
 body, html{
-    background-image: url("../Images/bg.jpg");
+    
+    background-image: url("/Images/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
+
 
 .container {
     display: grid;
@@ -21,7 +23,18 @@ body, html{
     margin-top: 20px;
 }
 
+.container h1 {
+    color: #fff;
+}
+
+ h2 {
+    text-align: center;
+    color: #000;
+}
+
 .board {
+    position: relative;
+    left: 50px;
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 5px;
@@ -51,7 +64,41 @@ body, html{
     font-size: 1.2em;
     cursor: pointer;
 }
+.change {
+    display: flex;
+    justify-content: center;
+}
 
+.gamemode {
+    width: 150px;
+    padding: 2px;
+    margin: 5px;
+}
 button {
     background-color: rgba(78, 173, 41, 0.592);
+    margin-top: 10px;
+    font-size: medium;
+}
+
+label{
+    background-color: black;
+    text-align: left;
+    color:white;
+}
+
+input {
+    width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .board {
+        grid-template-columns: repeat(3, 25%);
+        /* margin-left: 10px;
+        margin-right: 10px; */
+    }
+
+    .cell {
+        width: 100%;
+        margin-bottom: 5px;
+    }
 }

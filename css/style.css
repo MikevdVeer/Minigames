@@ -95,7 +95,7 @@
 }
 
 .discription img {
-    width: 250px;
+    width: 150px;
     border-radius: 20px;
 }
 
@@ -126,7 +126,21 @@ audio {
     float: right;
     margin: 20px;
     width: 30%;
+    color: #ffffff; 
+    border: 5px solid black; 
+    border-radius: 30px; 
 }
+
+  audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+  border: 5px solid black;
+  
+}
+
+audio::-webkit-media-controls-timeline {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
 #playlist {
     padding: 15px;

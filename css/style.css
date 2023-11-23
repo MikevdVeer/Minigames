@@ -265,6 +265,13 @@ i {
     .btn {
         width: 80%; 
     }
+    .discription img {
+        display: flex;
+        max-width: 100%;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
 
@@ -276,6 +283,8 @@ i {
     .nav ul li {
         padding: 3px;
     }
+
+    
 
    
 }

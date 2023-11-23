@@ -21,12 +21,12 @@ function audioPlayer() {
     $("#albumArt").attr("src", imageArray[currentSong]);
 
     $("#audioPlayer")[0].src = $("#playlist li a")[0].href;
-    // $("#audioPlayer")[0].play();
+    $("#audioPlayer")[0].play();
 
     $("#playlist li a").click(function (e) {
         e.preventDefault();
         $("#audioPlayer")[0].src = this.href;
-        // $("#audioPlayer")[0].play();
+        $("#audioPlayer")[0].play();
 
         currentSong = $(this).parent().index();
         $("#albumArt").attr("src", imageArray[currentSong]);
@@ -46,7 +46,7 @@ function audioPlayer() {
         $("#playlist li").removeClass("current-song");
         $("#playlist li:eq(" + currentSong + ")").addClass("current-song");
         $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
-        // $("#audioPlayer")[0].play();
+        $("#audioPlayer")[0].play();
     });
 }
 
